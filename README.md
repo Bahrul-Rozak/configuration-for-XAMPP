@@ -14,11 +14,11 @@ config = {
 
 link = mysql.connector.connect(**config)
 
-XAMPP Default
-<br>
-username : "root"
-password: '""
-<br>
-kalo pakai mamp pro 
-username: "root"
-password: "root"
+# XAMPP Default
+#
+# username : "root"
+# password: '""
+
+# kalo pakai mamp pro 
+# username: "root"
+# password: "root"
