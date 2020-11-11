@@ -1,6 +1,6 @@
 # configuration-for-XAMPP
 
-# For Python connection
+# For Python connection Database
 
 import mysql.connector
 
