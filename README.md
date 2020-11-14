@@ -48,10 +48,12 @@ password: "root"
 
 
 # Note : 
-lokasi instalasi xampp sebelumnya ada di /opt/lampp
-menghapus instalasi xampp bisa menjalankan perintah berikut
+1. lokasi instalasi xampp sebelumnya ada di /opt/lampp
+2. Menghapus instalasi xampp bisa menjalankan perintah berikut
 [ sudo /opt/lampp/uninstall ]
-Menghentikan xampp
+
+3. Menghentikan xampp
 [ sudo /opt/lampp/lampp stop ]
-menjalankan kembali 
+
+4. menjalankan kembali 
 [ sudo /opt/lampp/lampp start ]
