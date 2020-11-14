@@ -57,3 +57,9 @@ password: "root"
 
 4. menjalankan kembali 
 [ sudo /opt/lampp/lampp start ]
+
+5. Hak akses untuk htdocs
+Masuk ke directory Computer/opt/lampp
+kemudian klik kanan > open in Terminal
+sudo su
+chmod 777 -R htdocs/
