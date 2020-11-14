@@ -22,3 +22,36 @@ password: '""
 kalo pakai mamp pro 
 username: "root"
 password: "root"
+
+
+# Install XAMPP di Ubuntu Simple
+1. Unduh File Xampp untuk Linux
+
+2. Buka Terminal
+
+3. cd Downloads
+
+4. Selanjutnya ubah permission file xampp menjadi 755 dengan menjalankan perintah
+   [ chmod 755 xampp-linux - * - installer.run ]
+
+5. Jalankan command instalasi dibawah ini untuk memulai konfigurasi xampp. 
+	 [ sudo ./xampp-linux-*-installer.run ]
+
+6. Setup Installer
+
+7. Jalankan Server Apache dan MySQL
+
+8. Akses Website dan PHPmyadmin di Browser
+		[ http://localhost/phpmyadmin ]
+
+
+
+
+# Note : 
+lokasi instalasi xampp sebelumnya ada di /opt/lampp
+menghapus instalasi xampp bisa menjalankan perintah berikut
+[ sudo /opt/lampp/uninstall ]
+Menghentikan xampp
+[ sudo /opt/lampp/lampp stop ]
+menjalankan kembali 
+[ sudo /opt/lampp/lampp start ]
