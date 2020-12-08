@@ -66,3 +66,17 @@ kemudian klik kanan > open in Terminal
 sudo su
 
 chmod 777 -R htdocs/
+
+
+# MYSQL ACCESS DENIED
+1. Jalankan terlebih dahulu [ sudo /opt/lampp/lampp start ]
+2. Kemudian buka [ http://localhost/phpmyadmin/ ]
+3. Kembali ke terminal dan cek status mysql [ service mysql status ]
+4. kemudian stop koneksi mysql [ service mysql stop ]
+5. Kemudian restart kembali [ sudo /opt/lampp/lampp restart ]
+6. Kemudian nyalakan kembali [ sudo /opt/lampp/lampp start ]
+7. kembali ke localhost
+8. Enjoy
+
+
+
