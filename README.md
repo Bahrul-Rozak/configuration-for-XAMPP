@@ -32,9 +32,9 @@ password: "root"
 3. cd Downloads
 
 4. Selanjutnya ubah permission file xampp menjadi 755 dengan menjalankan perintah
-   ```
-   chmod 755 xampp-linux - * - installer.run 
-   ```
+```
+chmod 755 xampp-linux - * - installer.run 
+```
 
 5. Jalankan command instalasi dibawah ini untuk memulai konfigurasi xampp. 
 ```
