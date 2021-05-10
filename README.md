@@ -55,14 +55,14 @@ http://localhost/phpmyadmin
 
 # Note : 
 1. lokasi instalasi xampp sebelumnya ada di /opt/lampp
-2. Menghapus instalasi xampp bisa menjalankan perintah berikut
-[ sudo /opt/lampp/uninstall ]
+2. Menghapus instalasi xampp bisa menjalankan perintah berikut <br>
+``` sudo /opt/lampp/uninstall ```
 
-3. Menghentikan xampp
-[ sudo /opt/lampp/lampp stop ]
+3. Menghentikan xampp <br>
+``` sudo /opt/lampp/lampp stop ```
 
-4. menjalankan kembali 
-[ sudo /opt/lampp/lampp start ]
+4. menjalankan kembali <br>
+``` sudo /opt/lampp/lampp start ```
 
 5. Hak akses untuk htdocs
 
@@ -75,14 +75,15 @@ chmod 777 -R htdocs/
 
 
 # MYSQL ACCESS DENIED
-1. Jalankan terlebih dahulu [ sudo /opt/lampp/lampp start ]
-2. Kemudian buka [ http://localhost/phpmyadmin/ ]
-3. Kembali ke terminal dan cek status mysql [ service mysql status ]
-4. kemudian stop koneksi mysql [ service mysql stop ]
-5. Kemudian restart kembali [ sudo /opt/lampp/lampp restart ]
-6. Kemudian nyalakan kembali [ sudo /opt/lampp/lampp start ]
-7. kembali ke localhost
-8. Enjoy
+1. Jalankan terlebih dahulu <br>
+``` sudo /opt/lampp/lampp start ```
+2. Kemudian buka <br> ``` http://localhost/phpmyadmin/ ```
+3. Kembali ke terminal dan cek status mysql <br> ``` service mysql status ```
+5. kemudian stop koneksi mysql <br> ``` service mysql stop ```
+6. Kemudian restart kembali <br> ``` sudo /opt/lampp/lampp restart ```
+7. Kemudian nyalakan kembali <br> ``` sudo /opt/lampp/lampp start ```
+8. kembali ke localhost
+9. Enjoy
 
 
 
